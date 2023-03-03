@@ -17,3 +17,14 @@ print(cond3 and cond4)      # False
 print(cond3 or cond4)       #True
 print(not True or (True and not True))                  # False
 print(not False and True or False and not True)         # True
+
+# 5
+a = [1, 2, 3]
+b = a
+print(a == b)   # True
+print(a is b)   # True
+
+c = [1, 2, 3]
+d = [1, 2, 3]
+print(c == d)   # True
+print(c is d)   # False

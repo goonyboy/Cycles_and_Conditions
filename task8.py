@@ -9,3 +9,9 @@ elif A // 10 == 5 and A % 10 == 5:
     print('Число 55')
 else:
     print('В число не входит цифра 5')
+
+# Второе решение
+
+first = A // 10
+second = A % 10
+print((first == 5) or (second == 5))
